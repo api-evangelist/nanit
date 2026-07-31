@@ -1,7 +1,23 @@
 aid: nanit
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nanit.png
 name: Nanit
-description: 'Nanit is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Nanit is a consumer smart baby-monitoring company whose camera-based system tracks infant
+  sleep patterns, monitors breathing motion through wearable Breathing Wear, and sends real-time safety
+  notifications to parents. Its products pair 1080p HD video with computer-vision analytics, alongside a
+  companion mobile app, sound machines, and sleep-guidance content, sold direct-to-consumer as hardware plus
+  app subscriptions. As of this enrichment pass Nanit publishes no public developer API, SDK, CLI, or webhook
+  surface for third-party integration.'
 url: https://raw.githubusercontent.com/api-evangelist/nanit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +27,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Baby Monitor
+- Smart Home
+- IoT
+- Sleep Tracking
+- Connected Devices
+- Computer Vision
+- Parenting
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,19 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/nanit-domain-security.yml
 - type: Website
-  url: http://nanit.com
+  url: https://www.nanit.com
+- type: Support
+  url: https://support.nanit.com
+- type: PrivacyPolicy
+  url: https://www.nanit.com/policies/privacy-policy
+- type: TermsOfService
+  url: https://www.nanit.com/policies/terms-of-service
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  artifacts_updated: 1
+  pass: local-v1
