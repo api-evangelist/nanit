@@ -47,7 +47,7 @@ tags:
 - IoT
 - Sleep Tracking
 - Connected Devices
-- Computer-Vision
+- Computer Vision
 - Parenting
 tags_raw:
 - Company
@@ -59,6 +59,7 @@ tags_raw:
 - Connected Devices
 - Computer Vision
 - Parenting
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
